@@ -1,0 +1,14 @@
+<html>
+<head>
+<title> Good </title>
+</head>
+<body>
+<script>
+  window.localStorage.setItem('randid','1234');
+  var val = window.localStorage.getItem("randid");
+  alert(val);
+</script>
+<input id="cookie" type="text" value= 'nelson'> 
+<a href="#" onclick='location.replace("http://localhost/" + document.getElementById("cookie").value)'> click here</a>
+</body>
+</html>
