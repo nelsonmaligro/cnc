@@ -20,6 +20,7 @@
     "express-rate-limit": "^6.7.0",
     "express-session": "^1.17.3",
     "flat-db": "^4.0.0",
+    "forever": "^4.0.3",
     "http": "0.0.1-security",
     "https": "^1.0.0",
     "jsonwebtoken": "^9.0.0",

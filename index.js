@@ -24,7 +24,7 @@ setTimeout (()=>{
 
   d.on('error', function(err) {
     let deyt = date.format(new Date,'MM-DD-YYYY');
-    fs.appendFileSync('Logs/err-'+ deyt +'.log',err.message + '\n' + err.stack + '\n');
+    fs.appendFileSync('logs/err-'+ deyt +'.log',err.message + '\n' + err.stack + '\n');
     throw err;
   });
 
